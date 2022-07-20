@@ -12,7 +12,7 @@
     "db:push": "prisma db push --skip-seed",
     "db:seed": "npx prisma db seed",
     "db:studio": "prisma studio",
-    "now-build": "yarn generate && next build"
+    "now-build": "yarn prisma generate && next build"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.1",
